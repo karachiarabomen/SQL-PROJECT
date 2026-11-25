@@ -152,16 +152,16 @@ Through the analysis of employee records, departmental information, job roles, a
 
 The analysis provides a foundation for understanding workforce distribution, evaluating compensation structures, identifying potential staffing gaps, and supporting strategic HR decision-making.
 
-11. Project Information
+## Project Information
 
-Project Title: Orion Data Systems – Workforce Analytics
+**Project Title:** Orion Data Systems – Workforce Analytics
 
-Role: Junior Data Analyst
+**Role:** Junior Data Analyst
 
-Industry: Consulting & Technology
+**Industry:** Consulting & Technology
 
-Database: MySQL
+**Database:** MySQL
 
-Tools: MySQL Workbench and SQL
+**Tools**: MySQL Workbench and SQL
 
-Project Category: Human Resources Analytics
+**Project Category:** Human Resources Analytics
