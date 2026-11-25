@@ -1,6 +1,8 @@
-# Orion Data Systems – Workforce Analytics Report(Jan - October 2026) 
+# Orion Data Systems – Workforce Analytics Report(Jan - October 2026)
 
-![SQL-header1](SQL-header.png) 
+
+![SQL-header1](SQL-header1.png) 
+
 
 ## Executive Summary
 
