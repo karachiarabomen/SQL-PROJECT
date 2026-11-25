@@ -86,7 +86,7 @@ Used COUNT, GROUP BY, and ORDER BY to calculate employee headcount across depart
 
 Applied AVG and GROUP BY to calculate average employee salaries by department and identify salary differences across departments.
 
-7.3 Employee Salary Classification
+ ### Employee Salary Classification
 
 Used CASE statements to classify employees into three salary categories:
 
@@ -96,31 +96,31 @@ Used CASE statements to classify employees into three salary categories:
 
 The analysis provides an overview of employee distribution across the salary bands.
 
-7.4 Country-Level Department Analysis
+### Country-Level Department Analysis
 
 Used JOIN and COUNT to examine the number of departments operating in each country.
 
-7.5 Workforce Gaps
+### Workforce Gaps
 
 Applied RIGHT JOIN and NULL filtering to identify job roles in the jobs table that currently have no employees assigned.
 
-7.6 High Earners Analysis
+### High Earners Analysis
 
 Used a subquery and AVG function to identify employees whose salaries exceed the overall company average.
 
-7.7 Department Leadership Analysis
+### Department Leadership Analysis
 
 Applied INNER JOIN, GROUP BY, and COUNT to connect departments with their managers and calculate departmental employee headcount.
 
-7.8 Job Role Salary Analysis
+### Job Role Salary Analysis
 
 Used a Common Table Expression (CTE), AVG, and HAVING to calculate average salaries by job title and identify roles with average salaries above 12,000.
 
-7.9 Employee Salary Ranking
+### Employee Salary Ranking
 
 Applied the ROW_NUMBER() window function with PARTITION BY and ORDER BY to rank employees by salary within their respective departments.
 
-7.10 Salary Expenditure by Country
+### Salary Expenditure by Country
 
 Used JOIN, SUM, GROUP BY, and ORDER BY to calculate and compare total employee salary costs across countries.
 
