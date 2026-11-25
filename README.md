@@ -11,9 +11,7 @@ The objective is to provide the HR and Strategy team with meaningful workforce i
 
 The analysis covers ten business questions using SQL queries, including aggregate functions, joins, subqueries, Common Table Expressions (CTEs), and window functions.
 
-Final numerical findings and recommendations will be incorporated based on the actual query results.
-
-2. Business Context
+## Business Context
 
 Managing a multinational workforce requires accurate information about employee distribution, compensation, departmental structures, and job assignments.
 
@@ -23,7 +21,7 @@ The HR and Strategy team requires data-driven insights to evaluate workforce str
 
 This analysis uses SQL to investigate these areas and provide insights that can support informed business decisions.
 
-3. Objectives
+## Objectives
 
 The analysis aims to answer the following key business questions:
 
@@ -36,7 +34,7 @@ The analysis aims to answer the following key business questions:
 
 Additional analysis examines departmental leadership, employee salary rankings, and geographical department distribution.
 
-4. Data Overview
+## Data Overview
 
 The project uses four relational datasets representing the company's workforce and organisational structure.
 
@@ -48,11 +46,11 @@ Departments| Department names, managers and location information
 Jobs| Job titles and salary ranges
 Countries| Country names and regional classifications
 
-Database Structure
+### Database Structure
 
 The four tables are connected through relevant identifiers, including employee IDs, department IDs, job IDs, and country IDs.
 
-Database Schema: "capstone"
+Database Schema: capstone 
 
 Data Source: Supplied project datasets in CSV format.
 
