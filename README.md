@@ -1,6 +1,5 @@
 # Orion Data Systems – Workforce Analytics Report(October 2026) 
 
-
 ## Executive Summary
 
 This project analyses the workforce database of Orion Data Systems, a multinational consulting and technology firm operating across Europe, Asia, and the Americas.
@@ -33,7 +32,6 @@ This analysis uses SQL to investigate these areas and provide insights that can 
 - How are employee salary costs distributed across different countries?
 
 
-
 ## Data Overview
 
 The project uses four relational datasets representing the company's workforce and organisational structure.
@@ -52,7 +50,7 @@ The datasets contain structured employee and organisational information used to 
 
 ## screnshots 
 
-The analysis investigates the following areas:
+### The analysis investigates the following areas:
 
 - Departments with the highest and lowest employee headcounts.
 - Departments with the highest and lowest average salaries.
@@ -63,13 +61,12 @@ The analysis investigates the following areas:
 - Employee salary rankings within departments.
 - Total salary expenditure across countries.
 
-Specific findings and numerical results will be added after reviewing the executed SQL query outputs.
 
-6. Data Cleaning and Transformation
+## Data Cleaning and Transformation
 
 MySQL was used to organise and analyse the supplied datasets.
 
-The preparation and analysis process included:
+### The preparation and analysis process included:
 
 - Creating a dedicated database schema named "capstone".
 - Working with four related workforce tables.
@@ -81,11 +78,11 @@ The preparation and analysis process included:
 
 ## Detailed Findings & Analysis
 
-7.1 Workforce Distribution
+### Workforce Distribution
 
 Used COUNT, GROUP BY, and ORDER BY to calculate employee headcount across departments and identify departments with the largest workforce.
 
-7.2 Salary Comparison
+### Salary Comparison
 
 Applied AVG and GROUP BY to calculate average employee salaries by department and identify salary differences across departments.
 
