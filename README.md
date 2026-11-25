@@ -1,8 +1,5 @@
-# Orion Data Systems – Workforce Analytics Report
+# Orion Data Systems – Workforce Analytics Report 
 
-Database: MySQL
-Industry: Consulting & Technology
-Analysis Focus: Human Resources and Workforce Analytics
 
 ## Executive Summary
 
