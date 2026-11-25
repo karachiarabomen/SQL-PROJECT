@@ -56,7 +56,9 @@ Data Source: Supplied project datasets in CSV format.
 
 The datasets contain structured employee and organisational information used to perform workforce analysis.
 
-5. Key Findings
+## Key Findings
+
+## screnshots 
 
 The analysis investigates the following areas:
 
@@ -85,7 +87,7 @@ The preparation and analysis process included:
 - Using CASE statements to classify employees into salary categories.
 - Using CTEs and window functions to structure more advanced analysis.
 
-7. Detailed Findings & Analysis
+## Detailed Findings & Analysis
 
 7.1 Workforce Distribution
 
@@ -133,7 +135,7 @@ Applied the ROW_NUMBER() window function with PARTITION BY and ORDER BY to rank 
 
 Used JOIN, SUM, GROUP BY, and ORDER BY to calculate and compare total employee salary costs across countries.
 
-8. Recommendations
+## Recommendations
 
 Based on the analysis, the following areas should be considered by the HR and Strategy team:
 
@@ -145,7 +147,7 @@ Based on the analysis, the following areas should be considered by the HR and St
 
 These recommendations should be validated against the actual analysis findings before implementation.
 
-9. Tools Used
+## Tools Used
 
 MySQL: Used for querying, analysing, and extracting insights from the workforce database.
 
@@ -153,7 +155,7 @@ MySQL Workbench: Used as the database management and SQL development environment
 
 SQL Techniques: Used for data retrieval, aggregation, joins, subqueries, CTEs, CASE statements, and window functions.
 
-10. Conclusion
+## Conclusion
 
 The Orion Data Systems Workforce Analytics project demonstrates how SQL can be used to investigate organisational workforce structures and answer important human resource business questions.
 
