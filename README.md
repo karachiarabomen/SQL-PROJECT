@@ -1,4 +1,4 @@
-# Orion Data Systems – Workforce Analytics Report 
+# Orion Data Systems – Workforce Analytics Report(October 2026) 
 
 
 ## Executive Summary
@@ -37,14 +37,6 @@ Additional analysis examines departmental leadership, employee salary rankings, 
 ## Data Overview
 
 The project uses four relational datasets representing the company's workforce and organisational structure.
-
-Datasets Used
-
-Dataset| Description
-Employees| Employee details, salaries, job assignments and department information
-Departments| Department names, managers and location information
-Jobs| Job titles and salary ranges
-Countries| Country names and regional classifications
 
 ### Database Structure
 
