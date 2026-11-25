@@ -1,7 +1,4 @@
-# SQL-PROJECT
-
-
-## Orion Data Systems – Workforce Analytics Report
+# Orion Data Systems – Workforce Analytics Report
 
 Database: MySQL
 Industry: Consulting & Technology
