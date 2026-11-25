@@ -23,16 +23,16 @@ This analysis uses SQL to investigate these areas and provide insights that can 
 
 ## Objectives
 
-The analysis aims to answer the following key business questions:
+### The analysis aims to answer the following key business questions:
 
-1. How is the workforce distributed across departments, and which department has the highest employee headcount?
-2. What are the average salary differences across departments and job roles?
-3. How are employees distributed across different salary bands?
-4. Which employees earn above the company's overall average salary?
-5. Which job roles currently have no employees assigned?
-6. How are employee salary costs distributed across different countries?
+- How is the workforce distributed across departments, and which department has the highest employee headcount?
+- What are the average salary differences across departments and job roles?
+- How are employees distributed across different salary bands?
+- Which employees earn above the company's overall average salary?
+- Which job roles currently have no employees assigned?
+- How are employee salary costs distributed across different countries?
 
-Additional analysis examines departmental leadership, employee salary rankings, and geographical department distribution.
+
 
 ## Data Overview
 
