@@ -18,24 +18,30 @@ The analysis covers ten business questions using SQL queries, including aggregat
 
 ## Business Context
 
-Managing a multinational workforce requires accurate information about employee distribution, compensation, departmental structures, and job assignments.
+Understanding workforce structure and salary distribution is important for effective human resource management. Organisations need to know how employees are distributed across departments, how compensation differs across roles, and whether staffing levels are balanced.
 
-Orion Data Systems needs a clearer understanding of how its workforce is distributed across departments and countries, how employee salaries compare, and whether existing job roles are adequately staffed.
+Orion Data Systems required a workforce analysis to examine employee distribution, salary patterns, departmental performance, and job-role compensation.
 
-The HR and Strategy team requires data-driven insights to evaluate workforce structures, identify potential staffing gaps, understand salary expenditure, and support effective human resource planning.
+SQL was used to query, group, filter, rank, and aggregate the employee data to answer relevant workforce and business questions.
 
-This analysis uses SQL to investigate these areas and provide insights that can support informed business decisions.
 
 ## Objectives
 
 ### The analysis aims to answer the following key business questions:
 
-- How is the workforce distributed across departments, and which department has the highest employee headcount?
-- What are the average salary differences across departments and job roles?
-- How are employees distributed across different salary bands?
-- Which employees earn above the company's overall average salary?
-- Which job roles currently have no employees assigned?
-- How are employee salary costs distributed across different countries?
+The objectives of this analysis were to:
+
+- Examine employee distribution across departments.
+- Compare salary levels across departments.
+- Classify employees into salary bands.
+- Identify departments with the lowest average salaries.
+- Identify employees earning above the overall average salary.
+- Analyse department leadership and employee counts.
+- Identify job titles with average salaries above 12,000.
+- Rank employees by salary within their departments.
+- Compare total salary costs across countries.
+- Identify job roles without assigned employees.
+
 
 
 ## Data Overview
