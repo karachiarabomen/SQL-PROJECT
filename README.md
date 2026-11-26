@@ -5,10 +5,13 @@
 
 
 ## Executive Summary
+
 This project analysed workforce data for Orion Data Systems using SQL in MySQL Workbench. The analysis focused on employee distribution, salary patterns, departmental leadership, job-role compensation, employee salary ranking, and country-level salary costs.
-The findings showed that employee numbers were concentrated in a few departments, particularly Department 50 and Department 80. Salary-band analysis revealed that 49 employees fell within the low salary band, 43 within the medium salary band, and 15 within the high salary band.
-The project also identified job titles with average salaries above 12,000, examined employees earning above the overall average salary, and compared total salary costs across countries.
-The analysis demonstrates how SQL can be used to transform workforce data into meaningful insights that support human resource management and workforce planning.
+
+- The findings showed that employee numbers were concentrated in a few departments, particularly Department 50 and Department 80. 
+Salary-band analysis revealed that 49 employees fell within the low salary band, 43 within the medium salary band, and 15 within the high salary band.
+- The project also identified job titles with average salaries above 12,000, examined employees earning above the overall average salary, and compared total salary costs across countries.
+- The analysis demonstrates how SQL can be used to transform workforce data into meaningful insights that support human resource management and workforce planning.
 
 
 ## Business Context
@@ -154,19 +157,6 @@ Argentina	                43,600
 
 China.                   	42,400
 
-Egypt	                      41,600
-
-Brazil	                    38,000
-
-Japan	                        33,600
-
-Belgium	                     33,600
-
-India	                        32,800
-
-United States	               31,600
-
-Kuwait	                     25,500
 
 Switzerland recorded the highest total salary cost among the countries shown, while Kuwait recorded the lowest.
 Business Insight: Country-level salary costs help management understand how payroll expenditure is distributed geographically. These totals should be considered alongside employee counts and average salaries when evaluating payroll differences.
