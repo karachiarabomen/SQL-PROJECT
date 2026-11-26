@@ -9,19 +9,13 @@
 This project analysed employee and workforce data for Orion Data Systems using SQL in MySQL Workbench. The analysis focused on workforce distribution, salary patterns, employee rankings, departmental leadership, job roles, and workforce gaps.
 
 The results revealed that the workforce is concentrated in a few departments, with Shipping and Sales accounting for the largest employee groups. Salary analysis showed that 49 employees fall within the low salary band, 43 within the medium band, and 15 within the high salary band. The analysis also identified the highest-paying job roles, departments with the lowest average salaries, and countries with the highest total salary costs.
-
 These findings provide useful insights into workforce structure, compensation distribution, and areas that may require further HR review.
-
-.
-
 The analysis covers ten business questions using SQL queries, including aggregate functions, joins, subqueries, Common Table Expressions (CTEs), and window functions.
 
 ## Business Context
 
 Understanding workforce structure and salary distribution is important for effective human resource management. Organisations need to know how employees are distributed across departments, how compensation differs across roles, and whether staffing levels are balanced.
-
 Orion Data Systems required a workforce analysis to examine employee distribution, salary patterns, departmental performance, and job-role compensation.
-
 SQL was used to query, group, filter, rank, and aggregate the employee data to answer relevant workforce and business questions.
 
 
@@ -41,24 +35,7 @@ SQL was used to query, group, filter, rank, and aggregate the employee data to a
 - Identify job roles without assigned employees.
 
 
-
-## Data Overview
-
-The project uses four relational datasets representing the company's workforce and organisational structure.
-
-### Database Structure
-
-The four tables are connected through relevant identifiers, including employee IDs, department IDs, job IDs, and country IDs.
-
-Database Schema: capstone 
-
-Data Source: Supplied project datasets in CSV format.
-
-The datasets contain structured employee and organisational information used to perform workforce analysis.
-
-## Key Findings
-
-## screnshots 
+  ## Key Findings 
 
 ### The analysis investigates the following areas:
 
@@ -233,15 +210,22 @@ Business Insight: Based on this query, no job records without a matching employe
 
 ## Recommendations
 
-Based on the analysis, the following areas should be considered by the HR and Strategy team:
+Based on the findings, the following recommendations are proposed:
 
-- Workforce Planning: Review departmental headcount to identify potential staffing imbalances.
-- Compensation Management: Evaluate salary differences across departments and job roles to support fair and consistent compensation practices.
-- Talent Allocation: Review job roles without assigned employees to determine whether recruitment or restructuring is necessary.
-- Budget Management: Monitor salary expenditure across countries to improve workforce cost planning.
-- Performance Monitoring: Use employee salary rankings and departmental salary analysis to support compensation reviews and workforce evaluation.
+1. Review workforce concentration: Examine staffing levels in Departments 50 and 80 to ensure that employee distribution supports operational needs.
 
-These recommendations should be validated against the actual analysis findings before implementation.
+2. Review salary distribution: Investigate the large number of employees in the low salary band and assess whether compensation aligns with job responsibilities and experience.
+
+3. Evaluate departmental compensation: Review the departments with the lowest average salaries to understand differences in job composition and pay structure.
+
+4. Support salary benchmarking: Use the job-role salary results to compare compensation across leadership and managerial positions.
+
+5. Strengthen workforce planning: Use departmental employee counts and country-level workforce information to support staffing and resource allocation decisions.
+
+6. Monitor payroll expenditure: Review country-level salary costs alongside employee counts to understand geographical differences in payroll spending.
+
+7. Maintain workforce records: Continue checking employee and job records to identify unmatched or incomplete workforce information.
+
 
 ## Tools Used
 
@@ -253,22 +237,11 @@ SQL Techniques: Used for data retrieval, aggregation, joins, subqueries, CTEs, C
 
 ## Conclusion
 
-The Orion Data Systems Workforce Analytics project demonstrates how SQL can be used to investigate organisational workforce structures and answer important human resource business questions.
+The Orion Data Systems Workforce Analytics project demonstrated how SQL can be used to transform employee data into meaningful workforce insights.
 
-Through the analysis of employee records, departmental information, job roles, and country-level salary expenditure, the project applies SQL techniques to transform structured data into meaningful business insights.
+Through aggregation, filtering, subqueries, joins, CASE statements, and window functions, the analysis examined employee distribution, salary bands, departmental leadership, job-role compensation, employee rankings, and country-level salary costs.
 
-The analysis provides a foundation for understanding workforce distribution, evaluating compensation structures, identifying potential staffing gaps, and supporting strategic HR decision-making.
+The findings highlighted workforce concentration in key departments, a larger population of employees within the low and medium salary bands, and differences in salary expenditure across countries.
 
-## Project Information
+Overall, this project strengthened my practical SQL skills and demonstrated how database analysis can support human resource management, compensation review, and workforce planning.
 
-**Project Title:** Orion Data Systems – Workforce Analytics
-
-**Role:** Junior Data Analyst
-
-**Industry:** Consulting & Technology
-
-**Database:** MySQL
-
-**Tools**: MySQL Workbench and SQL
-
-**Project Category:** Human Resources Analytics
