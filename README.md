@@ -163,7 +163,7 @@ Business Insight: Country-level salary costs help management understand how payr
 
 
 
-![contry_level salary](salary_rank.Png) 
+![contry_level salary](country_level.png) 
 
 ### Workforce Gap Analysis
 
