@@ -84,25 +84,33 @@ Karen Partners	  13,500
 ![]() 
 
 **Business Insight:** Identifying employees earning above the overall average provides a useful starting point for compensation comparisons and understanding salary distribution across the organisation.
-4.5 Department Leadership Analysis
+
+### Department Leadership Analysis
 The department leadership query examined department names, manager names, and employee counts.
 Department	Manager	Employee Count
-Shipping	Michael Johnson	45
-Sales	Sophia Martinez	34
-Finance	David Jacobs	6
-Purchasing	Rebecca Chen	6
-IT	Cynthia Morrison	5
-Executive	Anthony Rodriguez	3
+Shipping	Michael Johnson	   45
+Sales	Sophia Martinez	      34
+Finance	David Jacobs	       6
+Purchasing	Rebecca Chen	     6
+IT	Cynthia Morris on            5
+Executive	Anthony Rodriguez	 3
+
 Shipping and Sales had the largest employee counts among the departments displayed.
-Business Insight: Department-level employee counts provide information about workforce structure and managerial responsibilities. This can support staffing reviews and resource allocation.
-4.6 Job Role Salary Analysis
+**Business Insight:** Department-level employee counts provide information about workforce structure and managerial responsibilities. This can support staffing reviews and resource allocation.
+
+
+### Job Role Salary Analysis
 The job-role analysis identified job titles with average salaries greater than 12,000.
 Job Title	Average Salary
-President	24,000
+President	                  24,000
 Administration Vice President	17,000
-Marketing Manager	13,000
-Sales Manager	12,200
+Marketing Manager	             13,000
+Sales Manager	               12,200
+
 President had the highest average salary among the job titles returned.
+
+! []() 
+
 Business Insight: The results show differences in average compensation across job roles and can support salary benchmarking and compensation planning.
 4.7 Employee Salary Ranking
 The employee ranking analysis uses the SQL ROW_NUMBER() window function to rank employees by salary within their departments.
