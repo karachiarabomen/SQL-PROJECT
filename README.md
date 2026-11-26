@@ -44,7 +44,9 @@ Department ID	Employee Count
 60	                    5
 Department 50 had the highest employee count, followed by Department 80.
 
-![] () 
+![] (Workforce Distribution.png) 
+
+
 ### Business Insight:
 Employee concentration in these departments highlights their importance within the organisation. Management can use this information to review staffing levels and ensure that workforce allocation supports operational needs.
 
