@@ -44,7 +44,7 @@ Department ID	Employee Count
 60	                    5
 Department 50 had the highest employee count, followed by Department 80.
 
-![] (Workforce Distribution.png) 
+![Workforce_Distribution](Workforce_Distribution.png) 
 
 
 ### Business Insight:
