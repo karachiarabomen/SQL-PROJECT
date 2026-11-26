@@ -132,7 +132,7 @@ The query partitions employees by department and orders their salaries from high
 
 **Business Insight:** Department-level salary ranking allows the organisation to compare employee compensation within individual departments. It can support internal salary reviews and workforce analysis.
 
-![employee_Rank](Empolyee_salary_rank.png) 
+![employee_Rank](salary_rank.png) 
 
 
 **Country-Level Workforce Analysis**
