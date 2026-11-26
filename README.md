@@ -1,4 +1,4 @@
-# Orion Data Systems – Workforce Analytics Report(Jan - Oct 2026)
+# Orion Data Systems – Workforce Analytics Report(Jan - Nov 2026)
 
 
 ![SQL-header1](SQL-header1.png) 
@@ -27,9 +27,7 @@ SQL was used to query, group, filter, rank, and aggregate the employee data to a
 
 ## Objectives
 
-### The analysis aims to answer the following key business questions:
-
-The objectives of this analysis were to:
+### The objectives of this analysis were to:
 
 - Examine employee distribution across departments.
 - Compare salary levels across departments.
@@ -88,53 +86,150 @@ MySQL was used to organise and analyse the supplied datasets.
 - Using CASE statements to classify employees into salary categories.
 - Using CTEs and window functions to structure more advanced analysis.
 
-## Detailed Findings & Analysis
+## Detailed Findings & AnalysisData Analysis and Key Findings
 
-### Workforce Distribution
+4.1 Workforce Distribution
 
-Used COUNT, GROUP BY, and ORDER BY to calculate employee headcount across departments and identify departments with the largest workforce.
+The workforce distribution analysis showed that employee numbers are concentrated in a few departments.
 
-### Salary Comparison
+The largest employee groups were:
 
-Applied AVG and GROUP BY to calculate average employee salaries by department and identify salary differences across departments.
+- Department 50: 45 employees
+- Department 80: 34 employees
+- Department 100: 6 employees
+- Department 30: 6 employees
+- Department 60: 5 employees
 
- ### Employee Salary Classification
+Department 50 had the highest employee count, followed by Department 80.
 
-Used CASE statements to classify employees into three salary categories:
+Business Insight: The concentration of employees in these departments suggests that they play significant roles in the organisation's operations. Workforce planning should consider whether staffing levels are appropriate for departmental responsibilities.
 
-- Low: Below 5,000
-- Medium: 5,000–10,000
-- High: Above 10,000
+4.2 Salary Band Analysis
 
-The analysis provides an overview of employee distribution across the salary bands.
+Employees were classified into salary bands using SQL CASE statements.
 
-### Country-Level Department Analysis
+Salary Band| Number of Employees
+Low| 49
+Medium| 43
+High| 15
 
-Used JOIN and COUNT to examine the number of departments operating in each country.
+The low salary band contained the largest number of employees, while the high salary band contained the fewest.
 
-### Workforce Gaps
+Business Insight: The salary distribution indicates that a substantial proportion of employees fall within the lower salary category. Management may review compensation structures, job levels, and opportunities for salary progression.
 
-Applied RIGHT JOIN and NULL filtering to identify job roles in the jobs table that currently have no employees assigned.
+4.3 Department Salary Analysis
 
-### High Earners Analysis
+The analysis identified the three departments with the lowest average salaries.
 
-Used a subquery and AVG function to identify employees whose salaries exceed the overall company average.
+Department ID| Average Salary
+50| 3,475.56
+30| 4,150.00
+10| 4,400.00
 
-### Department Leadership Analysis
+Department 50 recorded the lowest average salary among the departments returned by the query.
 
-Applied INNER JOIN, GROUP BY, and COUNT to connect departments with their managers and calculate departmental employee headcount.
+Business Insight: Departments with lower average salaries may require further examination of job roles, employee seniority, and compensation policies. A low average salary does not automatically indicate unfair pay, but it can help identify areas for review.
 
-### Job Role Salary Analysis
+4.4 High-Earning Employees
 
-Used a Common Table Expression (CTE), AVG, and HAVING to calculate average salaries by job title and identify roles with average salaries above 12,000.
+A subquery was used to identify employees whose salaries were greater than the overall average salary.
 
-### Employee Salary Ranking
+The results included employees such as:
 
-Applied the ROW_NUMBER() window function with PARTITION BY and ORDER BY to rank employees by salary within their respective departments.
+- Steven King – 24,000
+- Neena Kochhar – 17,000
+- Lex De Haan – 17,000
+- John Russell – 14,000
+- Karen Partners – 13,500
 
-### Salary Expenditure by Country
+The analysis also returned other employees whose salaries exceeded the calculated average.
 
-Used JOIN, SUM, GROUP BY, and ORDER BY to calculate and compare total employee salary costs across countries.
+Business Insight: Identifying employees above the average salary helps reveal the organisation's higher-paid workforce and supports compensation comparisons across roles and departments.
+
+4.5 Department Leadership Analysis
+
+The department leadership query examined department names, manager names, and employee counts.
+
+Key results included:
+
+Department| Manager| Employee Count
+Shipping| Michael Johnson| 45
+Sales| Sophia Martinez| 34
+Finance| David Jacobs| 6
+Purchasing| Rebecca Chen| 6
+IT| Cynthia Morrison| 5
+Executive| Anthony Rodriguez| 3
+
+Shipping and Sales had the largest employee counts among the departments displayed.
+
+Business Insight: Department-level employee counts provide useful information for understanding managerial responsibilities and identifying departments that may require additional workforce planning.
+
+4.6 Job Role Salary Analysis
+
+The job role analysis identified job titles with an average salary greater than 12,000.
+
+Job Title| Average Salary
+President| 24,000
+Administration Vice President| 17,000
+Marketing Manager| 13,000
+Sales Manager| 12,200
+
+President had the highest average salary among the job titles returned.
+
+Business Insight: The results show that senior leadership and managerial roles have higher average compensation. This information can support job-level salary comparisons and compensation planning.
+
+4.7 Employee Salary Ranking
+
+The analysis used the SQL ROW_NUMBER() window function to rank employees by salary within their departments.
+
+The highest salaries visible in the results included:
+
+- Steven King – 24,000
+- Neena Kochhar – 17,000
+- Lex De Haan – 17,000
+- John Russell – 14,000
+- Karen Partners – 13,500
+
+Business Insight: Employee ranking provides a structured way to compare compensation within departments and identify employees occupying higher salary positions.
+
+4.8 Country-Level Workforce Analysis
+
+The country-level analysis used a LEFT JOIN to examine the number of distinct departments represented in each country.
+
+The results showed that Australia had 4 departments, while Belgium, Brazil, Canada, China, and Egypt each had 3 departments in the displayed results.
+
+Business Insight: Comparing departmental presence across countries helps provide an overview of the organisation's geographical workforce structure.
+
+4.9 Country Salary Cost Analysis
+
+The country salary cost query aggregated employee salaries by country and sorted the results from highest to lowest.
+
+Country| Total Salary Cost
+Switzerland| 75,100
+Italy| 52,100
+Israel| 45,200
+Argentina| 43,600
+China| 42,400
+Egypt| 41,600
+Brazil| 38,000
+Japan| 33,600
+Belgium| 33,600
+India| 32,800
+United States| 31,600
+Kuwait| 25,500
+
+Switzerland recorded the highest total salary cost among the countries shown, while Kuwait recorded the lowest.
+
+Business Insight: Country-level salary costs can help management understand how payroll expenditure is distributed geographically. These totals should be interpreted alongside employee counts because a higher total salary cost may reflect a larger workforce or higher average compensation.
+
+4.10 Workforce Gap Analysis
+
+A RIGHT JOIN was used to identify job records that did not have a matching employee record.
+
+The result grid returned no records.
+
+Business Insight: Based on this query, no job records without a matching employee were identified in the result. This suggests that the job records examined were associated with employee records in the dataset.
+
 
 ## Recommendations
 
