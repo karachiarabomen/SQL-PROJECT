@@ -83,8 +83,7 @@ Lex De Haan	     17,000
 John Russell	  14,000
 Karen Partners	  13,500
 
-![]() 
-
+![high_eaners](high_earners.png) 
 **Business Insight:** Identifying employees earning above the overall average provides a useful starting point for compensation comparisons and understanding salary distribution across the organisation.
 
 ### Department Leadership Analysis
