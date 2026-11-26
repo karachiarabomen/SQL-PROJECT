@@ -6,11 +6,13 @@
 
 ## Executive Summary
 
-This project analyses the workforce database of Orion Data Systems, a multinational consulting and technology firm operating across Europe, Asia, and the Americas.
+This project analysed employee and workforce data for Orion Data Systems using SQL in MySQL Workbench. The analysis focused on workforce distribution, salary patterns, employee rankings, departmental leadership, job roles, and workforce gaps.
 
-Using MySQL, the analysis examines employee distribution, salary structures, departmental performance, job roles, and geographical salary expenditure.
+The results revealed that the workforce is concentrated in a few departments, with Shipping and Sales accounting for the largest employee groups. Salary analysis showed that 49 employees fall within the low salary band, 43 within the medium band, and 15 within the high salary band. The analysis also identified the highest-paying job roles, departments with the lowest average salaries, and countries with the highest total salary costs.
 
-The objective is to provide the HR and Strategy team with meaningful workforce insights that can support compensation analysis, workforce planning, and strategic decision-making.
+These findings provide useful insights into workforce structure, compensation distribution, and areas that may require further HR review.
+
+.
 
 The analysis covers ten business questions using SQL queries, including aggregate functions, joins, subqueries, Common Table Expressions (CTEs), and window functions.
 
