@@ -77,13 +77,20 @@ Department 50 recorded the lowest average salary among the departments returned 
 A subquery was used to identify employees earning more than the overall average salary.
 Examples from the results included:
 Employee	Salary
-Steven King	     24,000
-Neena Kochhar	  17,000
-Lex De Haan	     17,000
-John Russell	  14,000
-Karen Partners	  13,500
+
+Steven King	             24,000
+
+Neena Kochhar	           17,000
+
+Lex De Haan	              17,000
+
+John Russell	            14,000
+
+Karen Partners	            13,500
 
 ![high_eaners](high_earners.png) 
+
+
 **Business Insight:** Identifying employees earning above the overall average provides a useful starting point for compensation comparisons and understanding salary distribution across the organisation.
 
 ### Department Leadership Analysis
