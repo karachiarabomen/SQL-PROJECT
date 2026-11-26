@@ -56,7 +56,7 @@ Medium            	43
 High	               15
 The low salary band contained the largest number of employees, while the high salary band contained the fewest.
 
-![] () 
+![salary_bond](usingcasestatement.png) 
 
 **Business Insight:** The salary distribution provides an overview of compensation levels within the workforce. It can support further review of salary structures, job levels, and opportunities for employee progression.
 
