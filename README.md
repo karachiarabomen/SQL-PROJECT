@@ -109,7 +109,7 @@ Sales Manager	               12,200
 
 President had the highest average salary among the job titles returned.
 
-! []() 
+![Salary_band_analysis.png](Salary_band_analysis.png) 
 
 Business Insight: The results show differences in average compensation across job roles and can support salary benchmarking and compensation planning.
 4.7 Employee Salary Ranking
