@@ -108,6 +108,7 @@ Shipping and Sales had the largest employee counts among the departments display
 
 
 ### Job Role Salary Analysis
+
 The job-role analysis identified job titles with average salaries greater than 12,000.
 Job Title	Average Salary
 President	                  24,000
@@ -127,6 +128,7 @@ The employee ranking analysis uses the SQL ROW_NUMBER() window function to rank 
 The query partitions employees by department and orders their salaries from highest to lowest. This assigns rank 1 to the highest-paid employee within each department.
 
 **Business Insight:** Department-level salary ranking allows the organisation to compare employee compensation within individual departments. It can support internal salary reviews and workforce analysis.
+
 8 **Country-Level Workforce Analysis**
 
 The country-level workforce query examined the number of distinct departments represented in each country.
@@ -134,7 +136,8 @@ The results showed that Australia had 4 departments, while Belgium, Brazil, Cana
 Business Insight: This analysis provides an overview of departmental presence across countries and can help management understand the organisation's geographical workforce structure.
 
 
-4.9 Country-Level Salary Cost Analysis
+### Country-Level Salary Cost Analysis
+
 The country salary cost query aggregated employee salaries by country and sorted the results from highest to lowest.
 Country	Total Salary Cost
 Switzerland	75,100
@@ -151,8 +154,13 @@ United States	31,600
 Kuwait	25,500
 Switzerland recorded the highest total salary cost among the countries shown, while Kuwait recorded the lowest.
 Business Insight: Country-level salary costs help management understand how payroll expenditure is distributed geographically. These totals should be considered alongside employee counts and average salaries when evaluating payroll differences.
-4.10 Workforce Gap Analysis
-A RIGHT JOIN was used to identify job records without a matching employee record.
+
+
+
+
+### Workforce Gap Analysis
+
+**A RIGHT JOIN** was used to identify job records without a matching employee record.
 The result grid returned no records.
 Business Insight: No unmatched job records were identified by this query in the result shown. This provides a useful database-checking step for reviewing the relationship between job records and employee records. 
 
@@ -181,7 +189,7 @@ Based on the analysis, the following recommendations are proposed:
 **SQL** techniques used:
 - SELECT and WHERE
 - GROUP BY and ORDER BY
-- Aggregate functions: COUNT(), SUM(), AVG()
+- Aggregate functions: COUNT(), SUM(),    AVG()
 - CASE statements
 - Subqueries
 - INNER JOIN, LEFT JOIN, and RIGHT JOIN
