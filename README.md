@@ -18,7 +18,7 @@ SQL was used to retrieve, filter, group, rank, and aggregate the data to answer 
 
 ## Project Objectives
 
-###The objectives of this analysis were to:
+### The objectives of this analysis were to:
 - Examine employee distribution across departments.
 - Compare salary levels across departments.
 - Classify employees into salary bands.
@@ -30,17 +30,18 @@ SQL was used to retrieve, filter, group, rank, and aggregate the data to answer 
 - Compare total salary costs across countries.
 - Identify job records without matching employee records.
 
-- 
+
    ## Data Analysis and Key Findings
 ### Workforce Distribution
 The workforce distribution analysis examined the number of employees in each department.
-The largest employee groups were:
+
+**The largest employee groups were:**
 Department ID	Employee Count
-50	45
-80	34
-100	6
-30	6
-60	5
+50	                   45
+80	                   34
+100                    6
+30	                    6
+60	                    5
 Department 50 had the highest employee count, followed by Department 80.
 Business Insight: Employee concentration in these departments highlights their importance within the organisation. Management can use this information to review staffing levels and ensure that workforce allocation supports operational needs.
 4.2 Salary Band Analysis
