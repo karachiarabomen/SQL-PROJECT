@@ -4,29 +4,35 @@
 ![SQL-header1](SQL-header1.png) 
 
 
-1. Executive Summary
+## Executive Summary
 This project analysed workforce data for Orion Data Systems using SQL in MySQL Workbench. The analysis focused on employee distribution, salary patterns, departmental leadership, job-role compensation, employee salary ranking, and country-level salary costs.
 The findings showed that employee numbers were concentrated in a few departments, particularly Department 50 and Department 80. Salary-band analysis revealed that 49 employees fell within the low salary band, 43 within the medium salary band, and 15 within the high salary band.
 The project also identified job titles with average salaries above 12,000, examined employees earning above the overall average salary, and compared total salary costs across countries.
 The analysis demonstrates how SQL can be used to transform workforce data into meaningful insights that support human resource management and workforce planning.
-2. Business Context
-Workforce data provides organisations with important information about employee distribution, compensation, departmental structure, and staffing needs.
-Orion Data Systems required an analysis of its workforce to understand how employees were distributed across departments, how salaries differed, and how compensation and staffing patterns varied across job roles and countries.
+
+
+## Business Context
+- Workforce data provides organisations with important information about employee distribution, compensation, departmental structure, and staffing needs.
+- Orion Data Systems required an analysis of its workforce to understand how employees were distributed across departments, how salaries differed, and how compensation and staffing patterns varied across job roles and countries.
 SQL was used to retrieve, filter, group, rank, and aggregate the data to answer relevant business questions.
-3. Project Objectives
-The objectives of this analysis were to:
-•	Examine employee distribution across departments.
-•	Compare salary levels across departments.
-•	Classify employees into salary bands.
-•	Identify departments with the lowest average salaries.
-•	Identify employees earning above the overall average salary.
-•	Analyse department leadership and employee counts.
-•	Identify job titles with average salaries above 12,000.
-•	Rank employees by salary within their departments.
-•	Compare total salary costs across countries.
-•	Identify job records without matching employee records.
-4. Data Analysis and Key Findings
-4.1 Workforce Distribution
+
+## Project Objectives
+
+###The objectives of this analysis were to:
+- Examine employee distribution across departments.
+- Compare salary levels across departments.
+- Classify employees into salary bands.
+- Identify departments with the lowest average salaries.
+- Identify employees earning above the overall average salary.
+- Analyse department leadership and employee counts.
+- Identify job titles with average salaries above 12,000.
+- Rank employees by salary within their departments.
+- Compare total salary costs across countries.
+- Identify job records without matching employee records.
+
+- 
+   ## Data Analysis and Key Findings
+### Workforce Distribution
 The workforce distribution analysis examined the number of employees in each department.
 The largest employee groups were:
 Department ID	Employee Count
