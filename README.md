@@ -65,12 +65,10 @@ MySQL was used to organise and analyse the supplied datasets.
 
 ## Detailed Findings & AnalysisData Analysis and Key Findings
 
-4.1 Workforce Distribution
+### Workforce Distribution
 
 The workforce distribution analysis showed that employee numbers are concentrated in a few departments.
-
 The largest employee groups were:
-
 - Department 50: 45 employees
 - Department 80: 34 employees
 - Department 100: 6 employees
@@ -210,38 +208,27 @@ Business Insight: Based on this query, no job records without a matching employe
 
 ## Recommendations
 
-Based on the findings, the following recommendations are proposed:
+### Based on the findings, the following recommendations are proposed:
 
-1. Review workforce concentration: Examine staffing levels in Departments 50 and 80 to ensure that employee distribution supports operational needs.
-
-2. Review salary distribution: Investigate the large number of employees in the low salary band and assess whether compensation aligns with job responsibilities and experience.
-
-3. Evaluate departmental compensation: Review the departments with the lowest average salaries to understand differences in job composition and pay structure.
-
-4. Support salary benchmarking: Use the job-role salary results to compare compensation across leadership and managerial positions.
-
-5. Strengthen workforce planning: Use departmental employee counts and country-level workforce information to support staffing and resource allocation decisions.
-
-6. Monitor payroll expenditure: Review country-level salary costs alongside employee counts to understand geographical differences in payroll spending.
-
-7. Maintain workforce records: Continue checking employee and job records to identify unmatched or incomplete workforce information.
+- **Review workforce concentration:** Examine staffing levels in Departments 50 and 80 to ensure that employee distribution supports operational needs.
+- **Review salary distribution:** Investigate the large number of employees in the low salary band and assess whether compensation aligns with job responsibilities and experience.
+- **Evaluate departmental compensation:** Review the departments with the lowest average salaries to understand differences in job composition and pay structure.
+- **Support salary benchmarking:** Use the job-role salary results to compare compensation across leadership and managerial positions.
+- **Strengthen workforce planning:** Use departmental employee counts and country-level workforce information to support staffing and resource allocation decisions.
+- **Monitor payroll expenditure:** Review country-level salary costs alongside employee counts to understand geographical differences in payroll spending.
+- **Maintain workforce records:** Continue checking employee and job records to identify unmatched or incomplete workforce information.
 
 
 ## Tools Used
 
-MySQL: Used for querying, analysing, and extracting insights from the workforce database.
-
-MySQL Workbench: Used as the database management and SQL development environment.
-
-SQL Techniques: Used for data retrieval, aggregation, joins, subqueries, CTEs, CASE statements, and window functions.
+**MySQL:** Used for querying, analysing, and extracting insights from the workforce database.
+**MySQL Workbench:** Used as the database management and SQL development environment.
+**SQL Techniques:** Used for data retrieval, aggregation, joins, subqueries, CTEs, CASE statements, and window functions.
 
 ## Conclusion
 
-The Orion Data Systems Workforce Analytics project demonstrated how SQL can be used to transform employee data into meaningful workforce insights.
-
-Through aggregation, filtering, subqueries, joins, CASE statements, and window functions, the analysis examined employee distribution, salary bands, departmental leadership, job-role compensation, employee rankings, and country-level salary costs.
-
-The findings highlighted workforce concentration in key departments, a larger population of employees within the low and medium salary bands, and differences in salary expenditure across countries.
-
-Overall, this project strengthened my practical SQL skills and demonstrated how database analysis can support human resource management, compensation review, and workforce planning.
+- The Orion Data Systems Workforce Analytics project demonstrated how SQL can be used to transform employee data into meaningful workforce insights.
+- Through aggregation, filtering, subqueries, joins, CASE statements, and window functions, the analysis examined employee distribution, salary bands, departmental leadership, job-role compensation, employee rankings, and country-level salary costs.
+- The findings highlighted workforce concentration in key departments, a larger population of employees within the low and medium salary bands, and differences in salary expenditure across countries.
+- Overall, this project strengthened my practical SQL skills and demonstrated how database analysis can support human resource management, compensation review, and workforce planning.
 
