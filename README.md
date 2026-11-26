@@ -61,24 +61,29 @@ The low salary band contained the largest number of employees, while the high sa
 **Business Insight:** The salary distribution provides an overview of compensation levels within the workforce. It can support further review of salary structures, job levels, and opportunities for employee progression.
 
 
-4.3 Department Average Salary Analysis
+## Department Average Salary Analysis
 The analysis identified the three departments with the lowest average salaries.
 Department ID	Average Salary
-50	3,475.56
-30	4,150.00
-10	4,400.00
+50	                3,475.56
+30	                4,150.00
+10	                4,400.00
 Department 50 recorded the lowest average salary among the departments returned by the query.
-Business Insight: Differences in departmental average salaries may reflect variations in job roles, employee seniority, or workforce composition. Further investigation can help management understand these differences.
-4.4 High-Earning Employees
+
+**Business Insight:** Differences in departmental average salaries may reflect variations in job roles, employee seniority, or workforce composition. Further investigation can help management understand these differences.
+
+### High-Earning Employees
 A subquery was used to identify employees earning more than the overall average salary.
 Examples from the results included:
 Employee	Salary
-Steven King	24,000
-Neena Kochhar	17,000
-Lex De Haan	17,000
-John Russell	14,000
-Karen Partners	13,500
-Business Insight: Identifying employees earning above the overall average provides a useful starting point for compensation comparisons and understanding salary distribution across the organisation.
+Steven King	     24,000
+Neena Kochhar	  17,000
+Lex De Haan	     17,000
+John Russell	  14,000
+Karen Partners	  13,500
+
+![]() 
+
+**Business Insight:** Identifying employees earning above the overall average provides a useful starting point for compensation comparisons and understanding salary distribution across the organisation.
 4.5 Department Leadership Analysis
 The department leadership query examined department names, manager names, and employee counts.
 Department	Manager	Employee Count
