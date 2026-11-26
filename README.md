@@ -143,23 +143,37 @@ Business Insight: This analysis provides an overview of departmental presence ac
 
 The country salary cost query aggregated employee salaries by country and sorted the results from highest to lowest.
 Country	Total Salary Cost
-Switzerland	75,100
-Italy	52,100
-Israel	45,200
-Argentina	43,600
-China	42,400
-Egypt	41,600
-Brazil	38,000
-Japan	33,600
-Belgium	33,600
-India	32,800
-United States	31,600
-Kuwait	25,500
+
+Switzerland	                75,100
+
+Italy                     	52,100
+
+Israel	                  45,200
+
+Argentina	                43,600
+
+China.                   	42,400
+
+Egypt	                      41,600
+
+Brazil	                    38,000
+
+Japan	                        33,600
+
+Belgium	                     33,600
+
+India	                        32,800
+
+United States	               31,600
+
+Kuwait	                     25,500
+
 Switzerland recorded the highest total salary cost among the countries shown, while Kuwait recorded the lowest.
 Business Insight: Country-level salary costs help management understand how payroll expenditure is distributed geographically. These totals should be considered alongside employee counts and average salaries when evaluating payroll differences.
 
 
 
+![contry_level salary](Empolyee_salary_rank.png) 
 
 ### Workforce Gap Analysis
 
