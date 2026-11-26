@@ -111,15 +111,21 @@ President had the highest average salary among the job titles returned.
 
 ![Salary_band_analysis.png](Salary_band_analysis.png) 
 
-Business Insight: The results show differences in average compensation across job roles and can support salary benchmarking and compensation planning.
-4.7 Employee Salary Ranking
+**Business Insight:** The results show differences in average compensation across job roles and can support salary benchmarking and compensation planning.
+
+**Employee Salary Ranking**
+
 The employee ranking analysis uses the SQL ROW_NUMBER() window function to rank employees by salary within their departments.
-The corrected query partitions employees by department and orders their salaries from highest to lowest. This assigns rank 1 to the highest-paid employee within each department.
-Business Insight: Department-level salary ranking allows the organisation to compare employee compensation within individual departments. It can support internal salary reviews and workforce analysis.
-4.8 Country-Level Workforce Analysis
+The query partitions employees by department and orders their salaries from highest to lowest. This assigns rank 1 to the highest-paid employee within each department.
+
+**Business Insight:** Department-level salary ranking allows the organisation to compare employee compensation within individual departments. It can support internal salary reviews and workforce analysis.
+8 **Country-Level Workforce Analysis**
+
 The country-level workforce query examined the number of distinct departments represented in each country.
 The results showed that Australia had 4 departments, while Belgium, Brazil, Canada, China, and Egypt each had 3 departments in the displayed results.
 Business Insight: This analysis provides an overview of departmental presence across countries and can help management understand the organisation's geographical workforce structure.
+
+
 4.9 Country-Level Salary Cost Analysis
 The country salary cost query aggregated employee salaries by country and sorted the results from highest to lowest.
 Country	Total Salary Cost
@@ -140,21 +146,26 @@ Business Insight: Country-level salary costs help management understand how payr
 4.10 Workforce Gap Analysis
 A RIGHT JOIN was used to identify job records without a matching employee record.
 The result grid returned no records.
-Business Insight: No unmatched job records were identified by this query in the result shown. This provides a useful database-checking step for reviewing the relationship between job records and employee records.
-5. Recommendations
+Business Insight: No unmatched job records were identified by this query in the result shown. This provides a useful database-checking step for reviewing the relationship between job records and employee records. 
+
+
+## Recommendations
+
 Based on the analysis, the following recommendations are proposed:
-1.	Review workforce concentration: Examine staffing levels in Departments 50 and 80 to ensure that employee distribution supports operational requirements.
-2.	Review salary distribution: Investigate the large number of employees within the low salary band and assess compensation in relation to job responsibilities and experience.
-3.	Evaluate departmental compensation: Review departments with lower average salaries to understand differences in job composition and salary structure.
-4.	Support salary benchmarking: Use job-role salary results to compare compensation across leadership and managerial positions.
-5.	Strengthen workforce planning: Use departmental employee counts and country-level workforce information to support staffing and resource allocation.
-6.	Monitor payroll expenditure: Compare country-level salary costs with employee counts to understand geographical differences in payroll spending.
-7.	Maintain accurate workforce records: Continue checking employee and job records to identify unmatched or incomplete information.
-6. Conclusion
-The Orion Data Systems Workforce Analytics project demonstrated how SQL can be used to analyse employee data and generate meaningful workforce insights.
-Using aggregation, filtering, subqueries, joins, CASE statements, and window functions, the analysis examined workforce distribution, salary bands, departmental leadership, job-role compensation, employee salary ranking, and country-level salary costs.
-The findings highlighted employee concentration in key departments, differences in salary distribution, and variations in payroll costs across countries.
-Overall, this project strengthened my practical SQL skills and demonstrated how database analysis can support human resource management, compensation review, and workforce planning
+- Review workforce concentration: Examine staffing levels in Departments 50 and 80 to ensure that employee distribution supports operational requirements.
+- Review salary distribution: Investigate the large number of employees within the low salary band and assess compensation in relation to job responsibilities and experience.
+- Evaluate departmental compensation: Review departments with lower average salaries to understand differences in job composition and salary structure.
+- Support salary benchmarking: Use job-role salary results to compare compensation across leadership and managerial positions.
+- Strengthen workforce planning: Use departmental employee counts and country-level workforce information to support staffing and resource allocation.
+- Monitor payroll expenditure: Compare country-level salary costs with employee counts to understand geographical differences in payroll spending.
+- Maintain accurate workforce records: Continue checking employee and job records to identify unmatched or incomplete information.
+
+
+  	## Conclusion
+  	
+- The Orion Data Systems Workforce Analytics project demonstrated how SQL can be used to analyse employee data and generate meaningful workforce insights.
+- Using aggregation, filtering, subqueries, joins, CASE statements, and window functions, the analysis examined workforce distribution, salary bands, departmental leadership, job-role compensation, employee salary ranking, and country-level salary costs.
+- The findings highlighted employee concentration in key departments, differences in salary distribution, and variations in payroll costs across countries.
 
 ## Tools and SQL Skills
 
