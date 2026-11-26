@@ -154,33 +154,18 @@ Based on the analysis, the following recommendations are proposed:
 The Orion Data Systems Workforce Analytics project demonstrated how SQL can be used to analyse employee data and generate meaningful workforce insights.
 Using aggregation, filtering, subqueries, joins, CASE statements, and window functions, the analysis examined workforce distribution, salary bands, departmental leadership, job-role compensation, employee salary ranking, and country-level salary costs.
 The findings highlighted employee concentration in key departments, differences in salary distribution, and variations in payroll costs across countries.
-Overall, this project strengthened my practical SQL skills and demonstrated how database analysis can support human resource management, compensation review, and workforce planning.
-7. Tools and SQL Skills
-Tool: MySQL Workbench
-SQL techniques used:
-•	SELECT and WHERE
-•	GROUP BY and ORDER BY
-•	Aggregate functions: COUNT(), SUM(), AVG()
-•	CASE statements
-•	Subqueries
-•	INNER JOIN, LEFT JOIN, and RIGHT JOIN
-•	HAVING clause
-•	Common Table Expressions (CTEs)
-•	Window functions: ROW_NUMBER()
+Overall, this project strengthened my practical SQL skills and demonstrated how database analysis can support human resource management, compensation review, and workforce planning
 
+## Tools and SQL Skills
 
-
-
-## Tools Used
-
-**MySQL:** Used for querying, analysing, and extracting insights from the workforce database.
-**MySQL Workbench:** Used as the database management and SQL development environment.
-**SQL Techniques:** Used for data retrieval, aggregation, joins, subqueries, CTEs, CASE statements, and window functions.
-
-## Conclusion
-
-- The Orion Data Systems Workforce Analytics project demonstrated how SQL can be used to transform employee data into meaningful workforce insights.
-- Through aggregation, filtering, subqueries, joins, CASE statements, and window functions, the analysis examined employee distribution, salary bands, departmental leadership, job-role compensation, employee rankings, and country-level salary costs.
-- The findings highlighted workforce concentration in key departments, a larger population of employees within the low and medium salary bands, and differences in salary expenditure across countries.
-- Overall, this project strengthened my practical SQL skills and demonstrated how database analysis can support human resource management, compensation review, and workforce planning.
-
+**Tool:** MySQL Workbench
+**SQL** techniques used:
+- SELECT and WHERE
+- GROUP BY and ORDER BY
+- Aggregate functions: COUNT(), SUM(), AVG()
+- CASE statements
+- Subqueries
+- INNER JOIN, LEFT JOIN, and RIGHT JOIN
+- HAVING clause
+- Common Table Expressions (CTEs)
+- Window functions: ROW_NUMBER()
