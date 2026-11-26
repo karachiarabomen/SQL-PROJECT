@@ -43,15 +43,24 @@ Department ID	Employee Count
 30	                    6
 60	                    5
 Department 50 had the highest employee count, followed by Department 80.
-Business Insight: Employee concentration in these departments highlights their importance within the organisation. Management can use this information to review staffing levels and ensure that workforce allocation supports operational needs.
-4.2 Salary Band Analysis
+
+
+### Business Insight:
+Employee concentration in these departments highlights their importance within the organisation. Management can use this information to review staffing levels and ensure that workforce allocation supports operational needs.
+
+### Salary Band Analysis
 Employees were classified into salary bands using a SQL CASE statement.
 Salary Band	Number of Employees
-Low	49
-Medium	43
-High	15
+Low	               49
+Medium            	43
+High	               15
 The low salary band contained the largest number of employees, while the high salary band contained the fewest.
-Business Insight: The salary distribution provides an overview of compensation levels within the workforce. It can support further review of salary structures, job levels, and opportunities for employee progression.
+
+![] () 
+
+**Business Insight:** The salary distribution provides an overview of compensation levels within the workforce. It can support further review of salary structures, job levels, and opportunities for employee progression.
+
+
 4.3 Department Average Salary Analysis
 The analysis identified the three departments with the lowest average salaries.
 Department ID	Average Salary
